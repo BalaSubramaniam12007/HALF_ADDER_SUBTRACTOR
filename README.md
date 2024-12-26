@@ -53,7 +53,7 @@ Figure -02 HALF Subtractor
 
 
 **Program:**
-'''
+```
 1.Half Adder:
 module hal(a,b,s,c);
 input a,b;
@@ -69,7 +69,7 @@ output d,bw;
 assign d=a^b;
 assign bw=(~a&b);
 endmodule
-'''
+```
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
 Developed by: RegisterNumber:*/24901213
